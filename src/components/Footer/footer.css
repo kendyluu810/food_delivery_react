@@ -1,0 +1,153 @@
+.footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: #fde4e4;
+}
+
+.footer_logo img {
+  width: calc(100%-60%);
+  margin-bottom: 5px;
+}
+
+.footer_logo h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer_logo p {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 28px;
+}
+
+.footer_title {
+  font-size: 1.1rem;
+  color: #212245;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.footer_subtitle {
+  text-transform: capitalize;
+}
+
+.delivery_time-item {
+  background: transparent !important;
+}
+
+.delivery_time-item p {
+  color: #212245;
+}
+
+.delivery_time-item span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #212245;
+  background: transparent;
+}
+
+.contact_icon {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.newsletter {
+  padding: 7px 15px;
+  border: 1px solid #212245;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.newsletter input {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.newsletter input:focus {
+  outline: none;
+}
+
+.newsletter input::placeholder {
+  color: #212245;
+}
+
+.newsletter span {
+  background: #ff3333;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.newsletter span i {
+  color: #fff;
+}
+
+.copyright_txt {
+  font-size: 0.8rem;
+  color: #ff3333;
+}
+
+@media only screen and (max-width: 992px) {
+  .newsletter input {
+    padding: 7px;
+    font-size: 0.7rem;
+  }
+
+  .newsletter span {
+    padding: 4px 20px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .footer_title {
+    font-size: 0.8rem;
+  }
+
+  .delivery_time-item span {
+    font-size: 0.8rem;
+  }
+
+  .delivery_time-item p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+
+  .newsletter input {
+    padding: 7px;
+    font-size: 0.7rem;
+  }
+
+  .newsletter span {
+    padding: 4px 15px;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .copyright_txt {
+    text-align: center;
+  }
+
+  .social_link {
+    justify-content: center;
+  }
+
+  .social_link p {
+    font-size: 0.8rem;
+  }
+
+  .social_link span {
+    padding: 4px;
+  }
+
+  .social_link span a {
+    font-size: 0.7rem;
+  }
+}
